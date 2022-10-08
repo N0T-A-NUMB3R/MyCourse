@@ -12,7 +12,7 @@ namespace MyCourse.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return Content("Ciao");
         }
 
         public IActionResult About()
@@ -22,7 +22,7 @@ namespace MyCourse.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Contact()//cia
         {
             return View();
         }
